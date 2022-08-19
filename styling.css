@@ -1,13 +1,41 @@
-p:hover{
-    align-self: center;
-    font-size: 110%;
+p{
+    font-size: 20px;
+    text-align: left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+#itwasntme:hover{
     position: relative;
     visibility: hidden;
+    color: rgb(255, 0, 0);
 }
-p:hover:after{
+#itwasntme:hover:after{
     visibility: visible;
     position: absolute;
     top: 0;
     left: 0;
-    content: "This text replaces the original.";
+    content: "This css was attached in the develop branch";
 }
+#poo:hover {
+    position: relative;
+    visibility: hidden;
+    color: brown;
+}
+#poo:hover:after {
+    color: brown;
+    visibility: visible;
+    position: absolute;
+    top:1;
+    left: 0;
+    content: "Baby don't hurt me! and this was added in the feature branch";
+}
+#demo {
+    color: transparent;
+}
+#demo:hover {
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+
