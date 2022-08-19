@@ -30,5 +30,12 @@ p{
     left: 0;
     content: "He was also a pee pee head! and this was added in the feature branch";
 }
+#demo {
+    color: transparent;
+}
+#demo:hover {
+    position: relative;
+    color: rgb(0, 0, 0);
+}
 
 
